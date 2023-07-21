@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-    // alert("Bienvenidos a la página de Diser donde encontraras la sección de suscripción y noticias.");
+    alert("Bienvenidos a la página de Diser donde encontraras la sección de suscripción y noticias.");
 
     let imagen = Array.from(document.getElementsByClassName("img-divFlexProyectos"));
     let img1 = imagen[0];
