@@ -1,0 +1,182 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-top: 10px;
+}
+
+.dateTime {
+    display: flex;
+    float: right;
+}
+
+.dateTime p:first-child {
+    margin-right: 50px;
+}
+
+.dateTime p {
+    margin: 0 15px;
+}
+
+.menu-header,
+.nav-list {
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list,
+.list {
+    list-style: none;
+}
+
+.nav-list li a {
+    padding: 25px;
+    text-decoration: none;
+    color: #F7A800;
+}
+
+.nav-list li a:hover {
+    background-color: #A2BE2D;
+    color: white;
+}
+
+.header-img {
+    width: 80px;
+}
+
+.img-banner {
+    width: 100%;
+    margin: 0;
+}
+
+.container1 {
+    margin: 100px;
+    text-align: center;
+}
+
+.container1 h2 {
+    margin-bottom: 45px;
+}
+
+.barra {
+    height: 10px;
+    width: 70%;
+    border: none;
+    background: rgb(235, 61, 13);
+    background: linear-gradient(90deg, rgba(235, 61, 13, 1) 0%, rgba(255, 132, 0, 1) 25%, rgba(241, 184, 10, 1) 50%, rgba(233, 224, 18, 1) 75%, rgba(141, 226, 60, 1) 100%);
+}
+
+.container2,
+.container3,
+#contacto {
+    margin: 100px;
+    text-align: center;
+}
+
+.container2 h2 {
+    margin-bottom: 50px;
+}
+
+.div-flex-servicios,
+.div-flex-proyectos {
+    display: inline-flex;
+}
+
+.div-flex-servicios div {
+    width: 33%;
+}
+
+.div-flex-proyectos div {
+    width: 33%;
+}
+
+.img-divFlexServicios {
+    width: 50%;
+}
+
+.separador-servicios {
+    margin: 0 20px 0 20px;
+}
+
+.div-flex-servicios h4 {
+    text-decoration: underline;
+}
+
+.div-flex-servicios p {
+    font-style: italic;
+}
+
+.container3 h2 {
+    margin-bottom: 45px;
+}
+
+.img-divFlexProyectos {
+    width: 100%;
+}
+
+.separador-imagenes {
+    margin: 0 150px 0 150px;
+}
+
+#contacto {
+    margin-bottom: 50px;
+}
+
+.div-flex-proyectos p {
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 65px 90px 65px;
+    background: rgb(235, 61, 13);
+    background: linear-gradient(90deg, rgba(235, 61, 13, 1) 0%, rgba(255, 132, 0, 1) 25%, rgba(241, 184, 10, 1) 50%, rgba(233, 224, 18, 1) 75%, rgba(141, 226, 60, 1) 100%);
+}
+
+.lista-div {
+    padding-right: 250px;
+}
+
+.lista-div li {
+    margin: 15px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario input,
+.formulario textarea {
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.formulario input {
+    border-bottom: 1px solid rgb(100, 100, 100);
+    color: rgb(100, 100, 100);
+    width: 500px;
+
+}
+
+.formulario textarea {
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.flexFotoTexto {
+    display: flex;
+    width: 75%;
+    margin: auto;
+}

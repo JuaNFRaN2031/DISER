@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="dateTime">
+            <p>Hoy es <span id="fecha"></span></p>
+            <p><span id="hora"></span></p>
+        </div>
+        <nav class="menu-header">
+            <img src="img/favicon.png" alt="Logo Diser" class="header-img">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="#" class="nav-link">Quiénes Somos</a></li>
+                <li><a href="#autoconsumo" class="nav-link">Autoconsumo</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="eficienciaEnergetica.html" class="nav-link">Eficiencia Energética</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+
+        </nav>
+        <img src="img/Banner.jpg" alt="Banner" class="img-banner">
+    </header>
+    <div class="container1">
+        <h2 id="autoconsumo">AUTOCONSUMO FOTOVOLTAICO PARA EMPRESAS</h2>
+        <p>Descubre cómo puedes <strong>ahorrar hasta un 60% en la factura de electricidad de tu empresa</strong> con
+            las <strong>soluciones de autoconsumo industrial</strong> de DISER</p>
+    </div>
+    <hr class="barra">
+    <div class="container2">
+        <h2>NUESTROS SERVICIOS</h2>
+        <div class="div-flex-servicios">
+            <div>
+                <img src="img/Eficiencia.png" alt="Eficiencia energética" class="img-divFlexServicios">
+                <h4>EFICIENCIA ENERGETICA</h4>
+                <p>Desarrollo de proyectos integrales de eficiencia energética para todos los sectores</p>
+            </div>
+            <div class="separador-servicios">
+                <img src="img/Autoconsumo.png" alt="Autoconsumo" class="img-divFlexServicios">
+                <h4>AUTOCONSUMO</h4>
+                <p>Instalaciones fotovoltaicas en continua innovación en tecnología, producto y desarrollo</p>
+            </div>
+            <div>
+                <img src="img/Parques_Fotovoltaicos.png" alt="Placa Fotovoltaica" class="img-divFlexServicios">
+                <h4>PARQUES FOTOVOLTAICOS</h4>
+                <p>Dedicados a la promoción, desarrollo, construcción y Operación y Mantenimiento de grandes plantas en
+                    distintos países</p>
+            </div>
+        </div>
+    </div>
+    <hr class="barra">
+    <div class="container3">
+        <h2 id="proyectos">PROYECTOS</h2>
+        <div class="div-flex-proyectos">
+            <div>
+                <img src="img/proyecto1.jpg" alt="Instalaciones con placas fotovoltaicas en una parcela"
+                    class="img-divFlexProyectos">
+                <p>Instalación de Paneles Fotovoltaicos en una parcela</p>
+            </div>
+            <div class="separador-imagenes">
+                <img src="img/proyecto2.jpg" alt="Casa con placas fotovoltaicas en el tejado de una casa"
+                    class="img-divFlexProyectos">
+                <p>Instalación de Paneles Fotovoltaicos en una parcela</p>
+            </div>
+            <div>
+                <img src="img/proyecto3.jpg" alt="Instalaciones con placas fotovoltaicas en una finca"
+                    class="img-divFlexProyectos">
+                <p>Instalación de Paneles Fotovoltaicos en una parcela</p>
+            </div>
+        </div>
+    </div>
+    <hr class="barra">
+    <footer>
+        <h2 id="contacto">PONTE EN CONTACTO CON NOSOTROS</h2>
+        <div class="container4">
+            <div class="lista-div">
+                <ul class="list">
+                    <li><span class="material-symbols-outlined">
+                            location_on
+                        </span> Direccion: Calle Manuel Villena, 15</li>
+                    <li><span class="material-symbols-outlined">
+                            add_location_alt
+                        </span> C.P. 13700. Tomelloso. Ciudad Real</li>
+                    <li><span class="material-symbols-outlined">
+                            phone_in_talk
+                        </span> Teléfono: 926 555 555</li>
+                    <li><span class="material-symbols-outlined">
+                            mail
+                        </span> Email: info@disersa.es</li>
+                </ul>
+            </div>
+            <div class="formulario">
+                <form method="get">
+                    <input type="text" placeholder="Nombre" id="name" required><br>
+                    <input type="tel" placeholder="Teléfono"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <textarea name="mensaje" id="mensaje" cols="10" rows="3" placeholder="Mensaje"></textarea>
+                    <button type="submit">Enviar</button>
+                    <p id="fallo"></p>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

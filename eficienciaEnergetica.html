@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diser - Eficiencia Energética</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="dateTime">
+            <p>Hoy es <span id="fecha"></span></p>
+            <p><span id="hora"></span></p>
+        </div>
+        <nav class="menu-header">
+            <img src="img/favicon.png" alt="Logo Diser" class="header-img">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="#qsomos" class="nav-link">Quiénes Somos</a></li>
+                <li><a href="#autoconsumo" class="nav-link">Autoconsumo</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#" class="nav-link">Eficiencia Energética</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+
+        </nav>
+        <img src="img/Banner.jpg" alt="Banner" class="img-banner">
+    </header>
+    <div class="container1">
+        <h2 id="autoconsumo">EFICIENCIA ENERGETICA</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, officia fuga tempore nam quidem aliquam id
+            ex
+            nisi laboriosam suscipit autem officiis quaerat reiciendis. Maiores qui aliquid mollitia nam vitae.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in repudiandae fugiat perspiciatis
+            accusantium suscipit eveniet officia <strong>aliquam totam perferendis molestiae,</strong> nisi doloremque
+            praesentium magnam
+            recusandae ducimus veniam eius quasi.
+        </p>
+    </div>
+    <hr class="barra">
+    <div class="container2">
+        <h2>EL CONSUMO DE TUS ELECTRODOMESTICOS</h2>
+        <div class="div-flex-consumo">
+            <p>
+                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Deserunt laboriosam ab
+                expedita
+                error, fuga
+                quasi, minus optio porro consequatur, exercitationem fugit quibusdam sit? Quibusdam accusantium,
+                laudantium suscipit exercitationem saepe explicabo.
+            </p>
+            <div class="flexFotoTexto">
+                <div class="fotoConsumo">
+                    <img src="img/consumo-potencia-electrodomesticos.png" alt="Consumo" class="imgConsumo">
+                </div>
+                <div class="textoConsumo">
+                    <br>
+                    <select name="opcion" id="opcion">
+                        <p for="nombre">Potencia</p>
+                        <option>--- Elige un ELECTRODOMESTICO ---</option>
+                        <option value="nevera">nevera</option>
+                        <option value="vitro">vitro</option>
+                        <option value="microondas">microondas</option>
+                        <option value="horno">horno</option>
+                        <option value="lavavajillas">lavavajillas</option>
+                        <option value="lavadora">lavadora</option>
+                        <option value="television">televisión</option>
+                        <option value="aire acondicionado">aire acondicionado</option>
+                        <option value="calefaccion">calefacción</option>
+                    </select>
+                    <button type="submit" onclick="ShowSelected()">Calcular Potencia KW</button>
+                    <p id="resultado"></p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet ipsam provident fugit
+                        praesentium autem commodi maiores quas distinctio, quidem omnis. Delectus similique sequi
+                        debitis pariatur. Minima aut cum obcaecati.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis amet ipsam provident fugit
+                        praesentium autem commodi maiores quas distinctio, quidem omnis. Delectus similique sequi
+                        debitis pariatur. Minima aut cum obcaecati.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scriptPotencia.js"></script>
+</body>
+
+</html>
